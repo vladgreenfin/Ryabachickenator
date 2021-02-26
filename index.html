@@ -3,11 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Курочка Ряба</title>
   </head>
   <body>
-    <div class="wrapper">
-  <div>
+<div class="container">
+
+  <div class="content">
+
+   <div class="col-12">
+
     <div class="block">
       <div class="placeholder">var1</div>
       <input class="input j-var1" type="text" size="40">
@@ -42,13 +48,31 @@
       <div class="placeholder">speach</div>
       <input class="input j-speach" type="text" size="40">
     </div>
+
+    <div class="bblock">
+      <button class="btn j-btn-create">Создать</button>
+      <button class="btn j-btn-replace">Замена</button>
+    </div>
+
+   </div>
+
   </div>
-  
-  <div class="text j-text">Пока тут пусто</div>
+
+  <div class="col-4 textbox">
+    <div class="header">
+      <h1> Курочка ряба</h1>
+      
+    </div>
+    <div class="text j-text">Пока тут пусто</div>
+  </div>
+
+  <div class="col-4">
+      <div class="img-box"><img src="img/img.jpg"></div>
+  </div>
+
 </div>
 
-<button class="btn j-btn-create">Создать текст</button>
-<button class="btn j-btn-replace">Замена</button>
+
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
